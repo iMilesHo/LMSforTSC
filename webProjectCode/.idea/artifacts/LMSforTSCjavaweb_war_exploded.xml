@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="LMSforTSCjavaweb:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/LMSforTSCjavaweb_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="LMSforTSCjavaweb/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="LMSforTSCjavaweb" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="mysql-connector-java-5.1.49" />
+          <element id="library" level="project" name="jstl" />
+          <element id="library" level="project" name="standard" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/mysql-connector-java-5.1.49.jar" />
+          <element id="file-copy" path="$USER_HOME$/Downloads/commons-io-2.8.0.jar" />
+          <element id="file-copy" path="$USER_HOME$/Downloads/commons-fileupload-1.4.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

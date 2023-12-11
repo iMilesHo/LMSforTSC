@@ -1,0 +1,256 @@
+html { font-size: calc(1em + 1vw); }
+
+body{
+    font-family: "思源黑体 CN Normal,Helvetica Neue,Helvetica,Arial,Hiragino Sans GB,Hiragino Sans GB W3,WenQuanYi Micro Hei,sans-serif";
+}
+
+
+.tq-icon{
+    background: #3dc7b7;
+    color: #fff;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    line-height: 30px;
+    margin-right: 10px;
+}
+
+
+/*导航*/
+.tq-navbar-default{
+    background-color: #fff;
+    border: none;
+    box-shadow:0 4px 9px 0 rgba(50,50,50,0.18);
+}
+.tq-navbar-default .navbar-header a{
+    font-size: 26PX;
+    color: #337ab7;
+    font-weight: bold;
+    height: 70px;
+    line-height: 35px;
+}
+.tq-navbar-default .navbar-nav>li>a{
+    font-size: 16px;
+    color: #666;
+    height: 70px;
+    line-height: 35px;
+}
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 18px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+@media screen and (max-width: 767px) {
+    .tq-navbar-default .navbar-nav>li>a {
+        font-size: 16px;
+        color: #666;
+        height: 50px;
+        line-height: 25px;
+    }
+    .tq-navbar-default .navbar-nav>li>a:hover {
+        color: #666;
+        background-color: #eee;
+    }
+}
+
+/*home*/
+#home{
+    margin-top: 70px;
+    background: url("../images/tq_home_bg.jpg") no-repeat center 0;
+    background-size: cover;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+}
+.musk{
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,.7);
+    padding: 90px 0 60px;
+}
+#home h1{
+    font-weight: bold;
+    margin: 0 0 20px;
+}
+#home img{
+    margin-top: 30px;
+    display: inline-block;
+}
+
+/*bbs*/
+#bbs{
+    padding: 60px 0;
+    text-align: center;
+}
+#bbs a{
+    color: #0f0f0f;
+    text-decoration: none;
+}
+#bbs img{
+    margin: 0 auto;
+}
+#bbs h3{
+    font-size: .7rem;
+    font-weight: bold;
+}
+#bbs p{
+    font-size: .5rem;
+}
+#bbs .col-md-4{
+    padding: 15px;
+}
+#bbs .col-md-4:hover{
+    padding: 15px;
+    background: #eee;
+    box-shadow: 1px 2px 4px #ccc;
+}
+
+/*html5*/
+#html5{
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+#html5 h2{
+    font-weight: bold;
+}
+#html5 img{
+    display: block;
+    margin: 0 auto;
+}
+
+/*bootstarp*/
+#bootstarp{
+    margin-top: 35px;
+    padding: 50px 0;
+    background-color: #fff;
+}
+#bootstarp h2{
+    font-weight: bold;
+}
+#bootstarp img{
+    display: block;
+    margin: 0 auto;
+}
+
+/*class*/
+#course{
+    padding: 50px 0;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+#course h2{
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+#course img{
+    display: block;
+    margin: 0 auto;
+}
+.course{
+    background-color: #fff;
+    margin-bottom: 30px;
+}
+.course a.btn.btn-primary {
+    background: none;
+    border: 1px solid #3dc7b7;
+    color: #3dc7b7;
+    border-radius: 0;
+    margin: 20px 0 30px;
+    padding: 4px 30px;
+    transition: all .3s;
+}
+.course a.btn.btn-primary:hover {
+    background: #3dc7d7;
+    color: #fff;
+}
+
+/*app*/
+#app{
+    padding: 50px 0;
+
+}
+#app h2{
+    font-weight: bold;
+    margin-bottom: 36px;
+}
+#app p{
+    margin-bottom: 30px;
+}
+#app button.btn.btn-primary {
+    background-color: #3dc7b7;
+    border-color: #3dc7b7;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    padding: 8px 30px;
+    border-radius: 0;
+    transition: all .5s;
+}
+#app button.btn.btn-primary:hover {
+   background-color: #0b7d70;
+   border-color: #0b7d70;
+}
+
+/*contact*/
+#contact{
+    background: url("/myimages/125.jpg") no-repeat;
+    background-size: cover;
+    color: #fff;
+    height: 450px;
+}
+#contact span.glyphicon.glyphicon-send {
+    margin-right: 25px;
+}
+#contact span.glyphicon.glyphicon-home,
+#contact span.glyphicon.glyphicon-phone,
+#contact span.glyphicon.glyphicon-envelope
+{
+    margin-right: 12px;
+}
+#contact h2{
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 0;
+}
+#contact p.contact-p {
+    margin-bottom: 30px;
+}
+#contact input.form-control {
+    border-radius: 0;
+    border: none;
+    height: 40px;
+    margin-bottom: 20px;
+}
+#contact textarea.form-control {
+    border-radius: 0;
+    border: none;
+    margin-bottom: 20px;
+}
+#contact input[type="submit"]{
+    background-color: #1994c7;
+    color: #fff;
+    transition: all .5s;
+}
+#contact input[type="submit"]:hover{
+    background-color: #068577;
+    color: #fff;
+}
+
+/*footer*/
+#footer{
+    padding: 20px 0 15px;
+    text-align: center;
+    font-size: 16px;
+}
+
+#footer footer{
+    flex-shrink: 0;
+}
+
